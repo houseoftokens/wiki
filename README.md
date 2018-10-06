@@ -1,5 +1,5 @@
-## Welcome to wiki of HouseOfTokens
-
+## Welcome to wiki of
+![Logo](https://www.hotwallet.tech/i/logo.jpg)
 
 HouseOfTokens is maintained by [HoT](https://hotwallet.tech/ ) .
 
@@ -12,4 +12,3 @@ HouseOfTokens is maintained by [HoT](https://hotwallet.tech/ ) .
 ### Technical Whitepaper
 (to be continued...)
 
-![Logo](https://www.hotwallet.tech/i/logo.jpg)

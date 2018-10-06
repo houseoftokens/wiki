@@ -11,3 +11,5 @@ HouseOfTokens is maintained by [HoT](https://hotwallet.tech/ ) .
 
 ### Technical Whitepaper
 (to be continued...)
+
+![Logo](https://www.hotwallet.tech/i/logo.jpg)

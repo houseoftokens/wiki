@@ -3,12 +3,12 @@
 
 HouseOfTokens is maintained by [HoT](https://hotwallet.tech/ ) .
 
-(to be continued...)
-
-
 ### Commercial Whitepaper
 (to be continued...)
 
 ### Technical Whitepaper
 (to be continued...)
+
+### Token information
+click [here](erc20.md) to check the ERC20 token information of HOT.
 

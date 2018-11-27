@@ -9,7 +9,7 @@
  Init Supply | 86410000
  Whether can issue | yes
  
- ## ERC20 Token Information of HGBP
+## ERC20 Token Information of HGBP
  
   Title | Description
   --- | --- 
@@ -20,7 +20,7 @@
   Init Supply | 360000
   Whether can issue | yes
   
-  Issuance History
+### Issuance History of HGBP
   
   Date | Amount | Purpose
   --- | --- | ---

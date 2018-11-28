@@ -8,7 +8,7 @@ collections:
     order: 1
     output: true
   erc20:
-    title: ERC20 Tokens
+    title: Token Info
     order: 2
     output: true
 

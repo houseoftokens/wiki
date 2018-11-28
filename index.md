@@ -23,4 +23,4 @@ to be continued...
 
 ## ERC20 Token information
 
-Click [here](/erc20/erc20.md) to check the information of corresponding ERC20 token of HOT and HGBP.
+Click [here](/erc20/erc20) to check the information of corresponding ERC20 token of HOT and HGBP.

@@ -1,3 +1,9 @@
+---
+title: ERC20 Tokens
+chapter: 1
+layout: default
+---
+
 ## ERC20 Token Information of HOT
 
  Title | Description

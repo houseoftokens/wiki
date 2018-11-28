@@ -1,3 +1,30 @@
-theme: jekyll-theme-slate
 title: Wiki of HouseToken
 description: Welcome to wiki of HouseToken
+
+# Articles
+collections:
+  wps:
+    title: Whitepapers
+    order: 1
+    output: true
+  erc20:
+    title: ERC20 Tokens
+    order: 2
+    output: true
+
+# Jekyll Folders
+# source: ./themes/km/
+collections_dir: ./collections
+layouts_dir: ./themes/km/layout
+includes_dir: ./themes/km/layout
+sass:
+  sass_dir: ./themes/km/css
+  style: compressed
+# Jekyll Settings
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: default
+

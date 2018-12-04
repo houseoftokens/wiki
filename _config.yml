@@ -11,6 +11,10 @@ collections:
     title: Token Info
     order: 2
     output: true
+  security:
+      title: Security
+      order: 3
+      output: true
 
 # Jekyll Folders
 # source: ./themes/km/

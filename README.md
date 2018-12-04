@@ -1,17 +1,27 @@
-## Welcome to wiki of
-![Logo](https://www.hotwallet.tech/i/logo.jpg)
+## Welcome to wiki of HouseToken
 
-HouseOfTokens is maintained by [HoT](https://hotwallet.tech/ ) .
+<img src="/assets/images/logo.svg" alt="logo" height="100"/>
 
-### Development docs
-Please visit [https://dev.hotwallet.tech](https://dev.hotwallet.tech).
+# This wiki is maintained by `HouseToken`
+## Dev docs
 
-### Commercial Whitepaper
-(to be continued...)
+### `housetokend` API documentation
 
-### Technical Whitepaper
-(to be continued...)
+Use the [`housetokend` API](https://dev.hotwallet.tech) to communicate with a `housetokend` server, the core peer-to-peer server that manages the HOT Ledger.
 
-### Token information
-click [here](erc20.md) to check the ERC20 token information of HOT and HGBP.
+### RPC Tool
+
+Use the [JSON-RPC-based debugging tool](https://dev.hotwallet.tech/hot-ledger-rpc-tool.html) to print raw information about a HOT Ledger account, transaction, or ledger.
+
+### Websocket API tool
+
+Need to see the HOT API in action ASAP? Use [Websocket tool](https://dev.hotwallet.tech/websocket-api-tool.html) to send prepopulated sample requests and get responses. No setup required.
+
+## Whitepapers
+
+to be continued...
+
+## ERC20 Token information
+
+Click [here](/erc20/erc20) to check the information of corresponding ERC20 token of HOT and HGBP.
 

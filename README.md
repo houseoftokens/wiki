@@ -1,8 +1,8 @@
-## Welcome to wiki of HouseToken
+# Welcome to wiki of HouseToken
 
 <img src="/assets/images/logo.svg" alt="logo" height="100"/>
 
-# This wiki is maintained by `HouseToken`
+This wiki is maintained by `HouseToken`
 ## Dev docs
 
 ### `housetokend` API documentation

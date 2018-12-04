@@ -61,11 +61,11 @@ function GoogleAuthenticatorCode(string secret)
 1. Go to "Security Settings"-"Two Factor Authentication"，click "Enable".
 2. Input and verify your payment password.
 3. A barcode dialog will be displayed after the verification.
-![bar code](/assets/images/p0.png)
+<img src="/assets/images/p0.png" style="width=400px;" alt="bar code">
 4. Open the Google Authenticator app on your phone
-![google authenticator](/assets/images/p2.png)
+<img src="/assets/images/p2.png" style="width=400px;" alt="google authenticator">
 5. Scan the barcode and add it to your list.
-![google authenticator](/assets/images/p3.png)
+<img src="/assets/images/p3.png" style="width=400px;" alt="google authenticator">
 6. Enter the code generated from Google Authenticator on the barcode dialog and click "Bind".
 
 ### Close Google Authentication

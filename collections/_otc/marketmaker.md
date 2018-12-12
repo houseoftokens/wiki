@@ -6,7 +6,7 @@ layout: default
 
 # Apply to be a Market Maker
 
-You can submit your application through email: `hot-custom@outlook.com`. Before that, you must finished things below.
+You can submit your application through email: `hot-custom@outlook.com`. Before that, you must finish things below.
 
 1. You must register an account at [HOT Wallet Site](https://www.hotwallet.tech) 
 2. Account must finished ID verification.

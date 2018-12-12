@@ -9,8 +9,8 @@ layout: default
 You can submit your application through email: `hot-custom@outlook.com`. Before that, you must finish things below.
 
 1. You must register an account at [HOT Wallet Site](https://www.hotwallet.tech) 
-2. Account must finished ID verification.
-3. Account must bind a phone number.
+2. Account must finish ID verification.
+3. Account must have a phone number bound.
 
 
 ## Documents supplied with email

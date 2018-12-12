@@ -15,6 +15,10 @@ collections:
       title: Security
       order: 3
       output: true
+  otc:
+      title: OTC
+      order: 4
+      output: true
 
 # Jekyll Folders
 # source: ./themes/km/

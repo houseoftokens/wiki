@@ -17,10 +17,9 @@ Use the [JSON-RPC-based debugging tool](https://dev.hotwallet.tech/hot-ledger-rp
 
 Need to see the HOT API in action ASAP? Use [Websocket tool](https://dev.hotwallet.tech/websocket-api-tool.html) to send prepopulated sample requests and get responses. No setup required.
 
-## Whitepapers
+## Related Links
 
-to be continued...
-
-## ERC20 Token information
-
-Click [here](/erc20/erc20) to check the information of corresponding ERC20 token of HOT and HGBP.
+* [HOT News](http://www.house-token.com/news/)
+* [HOT Wallet](https://www.hotwallet.tech)
+* [HOT Exchange](https://www.hotwallet.tech/exchange)
+* [HOT OTC](https://otc.hotwallet.tech)

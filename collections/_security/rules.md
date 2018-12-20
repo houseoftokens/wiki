@@ -55,19 +55,19 @@ You should complete the online form, and supply:
 
 1. ID card image of front side.
 
-<img src="/assets/images/front.png" style="width:412px;" alt="front side image">
+    <img src="/assets/images/front.png" style="width:412px;" alt="front side image">
 
 2. ID card image of back side.
 
-<img src="/assets/images/back.png" style="width:412px;" alt="back side image">
+    <img src="/assets/images/back.png" style="width:412px;" alt="back side image">
 
 3. An image contains your face and holding your identity with front side.
 
-<img src="/assets/images/id.png" style="width:420px;" alt="ID image">
+    <img src="/assets/images/id.png" style="width:420px;" alt="ID image">
 
 4. Proof of address
 
-<img src="/assets/images/address.png" style="width:366px;" alt="Proof of address">
+    <img src="/assets/images/address.png" style="width:366px;" alt="Proof of address">
 
 With ID verification approved, you can:
 

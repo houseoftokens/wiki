@@ -82,4 +82,8 @@ function GoogleAuthenticatorCode(string secret)
 
 ### Lost your Google Authenticator
 
-If your phone is lost or the code in the app is removed, you have to send email to `hot-custom@outlook.com` to find it back.
+If your phone is lost or the code in the app is removed, you have to send email to `support@hotwallet.tech` to find it back:
+
+1. Your account nick
+2. Your ID images of both sides.
+3. An image contains your face and holding your request writing on paper.

@@ -34,7 +34,7 @@ If your ID verification is approved, you can send the following documents to our
 
 1. Your account nick, your old phone number.
 2. Your ID images of both sides.
-3. An image contains your face and holding your identity with front side.
+3. An image contains your face and holding your request writing on paper.
 4. New phone number.
 
 ## Google Authenticator

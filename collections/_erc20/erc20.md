@@ -31,3 +31,4 @@ layout: default
   Date | Amount | Purpose
   --- | --- | ---
   2018.11.27 | 21000000 | Amount for exchange
+  2018.12.20 | 360000 | Dividend of HOT

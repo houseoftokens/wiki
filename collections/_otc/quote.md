@@ -18,7 +18,7 @@ For more information about Market Maker, please check [Apply to be a Market Make
 
 2. Click the '+' you'll see the creation tab
 
-    <img src="/assets/images/otc_quote_creation_entrance.png" style="width:400px;" alt="creation tab">
+    <img src="/assets/images/otc_creation_tab.png" style="width:400px;" alt="creation tab">
 
     1. `Type` (Buy,Sell) represents whether the quotation is for purchase or for sale. Please note that this refers to the user's perspective, it means when a quotation with `Buy` type is created, it's a sell quotation for the market maker.
     2. `Quote Currency` represents the digital currency which you sell or buy.

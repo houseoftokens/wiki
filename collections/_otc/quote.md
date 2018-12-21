@@ -14,7 +14,7 @@ For more information about Market Maker, please check [Apply to be a Market Make
 
 1. If you have already became a market marker, you can find the '+' on the [OTC HOME](https://otc.hotwallet.tech/)
 
-    <img src="/assets/images/otc_quote_creation_entrance.png" style="width:202px;" alt="entrance">
+    <img src="/assets/images/otc_quote_creation_entrance.png" style="width:101px;" alt="entrance">
 
 2. Click the '+' you'll see the creation tab
 

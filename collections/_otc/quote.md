@@ -4,9 +4,9 @@ chapter: 2
 layout: default
 ---
 
-#Quotations
+# Quotations
 
-##Create a new quotation
+## Create a new quotation
 
 First of all, you should become a market maker before you can make a new quotation. 
 
@@ -37,7 +37,7 @@ For more information about Market Maker, please check [Apply to be a Market Make
     1. When a quotation of type `Buy` is creating, system will check if the market maker's OTC balance is enough and the corresponding amount of balance will be froze till the quotation is cancelled or finished. 
     2. Only one quotation with same `Quote Currency`, `Base Currency` and `Type` value can be put online, set it `Offline` before you create a new one.
     
-##Manage quotation
+## Manage quotation
 
 You can manage you quotations on the [QUOTATIONS page](https://otc.hotwallet.tech/my/quotations)
 
@@ -52,7 +52,7 @@ The fields you can modify is listed below:
 7. `Requires Mobile Phone`
 8. `Serving only designated users`
 
-##Status of quotation
+## Status of quotation
 
 the values of status is listed below:
 

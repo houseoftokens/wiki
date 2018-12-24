@@ -46,7 +46,7 @@ Note: Operation of transferring balance between OTC and Exchange  needs to apply
 
 At the [BALANCES Page](https://otc.hotwallet.tech/balance) you can check your detailed balance history.
 
-<img src="/assets/images/balance_history.png" style="width:501px;" alt="balance_history">
+<img src="/assets/images/balance_history.png" style="width:750px;" alt="balance_history">
 
 Available `Type` of balance history:
 

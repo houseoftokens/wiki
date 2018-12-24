@@ -21,7 +21,7 @@ You can submit your application through email: `support@hotwallet.tech`. Before 
     * Hold your ID card on the front and keep the sound and video clear during the recording.
     * Read the following terms: I (name, ID number), my funds are legal and reliable. I voluntarily trade digital assets. I am fully aware of the potential risks associated with digital currency and I have the ability and willingness to undertake the risks involved.
 
-## Margin Digital asset
+## Margin Digital Asset
 Agree to freeze 100000 HGBP as security Market Maker's deposit. You must have enough OTC balance when you apply.
 
 ## Review

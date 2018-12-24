@@ -33,7 +33,7 @@ Note: Operation of transferring balance between OTC and Exchange  needs to apply
 2. User's OTC balance is deducted at the same time when the order is created.
 3. A Transfer transaction request with the corresponding amount deducted from OTC balance is made.
 4. Applying transaction of receipt on the HOT chain which will take minutes to finish.
-5. After the transaction is done, the transferring order's status will be changed to `Finished`.
+5. After the transaction is done, the transferring order's status will be changed to `Completed`.
 
 ## Exchange to OTC
 

@@ -40,10 +40,10 @@ After user places an order, the page will be redirected to the order details to 
 
 This page has four main functional areas:
 
-* Order value information including the amount of the digital asset and fiat money.
-* Payment information including the seller's payment method details, the reference ID, and the expiration tips.
-* Operation area that both parties can operate the order
-* Chat window where both parties can chat directly in real time. The chat window will be closed one hour after the order is completed.
+1. Order value information including the amount of the digital asset and fiat money.
+2. Payment information including the seller's payment method details, the reference ID, and the expiration tips.
+3. Operation area that both parties can operate the order
+4. Chat window where both parties can chat directly in real time. The chat window will be closed one hour after the order is completed.
 
 ## Pay order
 
@@ -52,8 +52,8 @@ The buyer of the order must make a payment of fiat money to the counter party wi
 <img src="/assets/images/order_paid.png" style="width:801px;" alt="order_paid">
 
 * Both parties of the order can view each other's mobile phone 2 minutes after the payment is completed in case of emergency calls.
-* Both parties can initiate a complaint by clicking `Appeal` button when the following situations happen:
-    * Buyer does not make payment but click the `Pay` button marking the order is paid.
+* Both parties can initiate a complaint by clicking `APPEAL` button when the following situations happen:
+    * Buyer does not make payment but click the `I'VE PAID FOR IT` button marking the order is paid.
     * Seller does not release the digital asset for quite a long time.
     
 ## Appeal Order

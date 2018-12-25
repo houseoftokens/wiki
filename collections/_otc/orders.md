@@ -45,7 +45,7 @@ This page has four main functional areas:
 3. Operation area that both parties can operate the order
 4. Chat window where both parties can chat directly in real time. The chat window will be closed one hour after the order is completed.
 
-## Pay order
+### Pay order
 
 The buyer of the order must make a payment of fiat money to the counter party within 20 minutes. After the payment is completed, buyer can click the `Pay` button to finish payment.
 
@@ -56,7 +56,7 @@ The buyer of the order must make a payment of fiat money to the counter party wi
     * Buyer does not make payment but click the `I'VE PAID FOR IT` button marking the order is paid.
     * Seller does not release the digital asset for quite a long time.
     
-## Appeal Order
+### Appeal Order
 
 If the application of complaint is made, the customer service will chat at the chat window to ask the proof of the payment. And Customer service can make the judgement according to the payment details supplied by the buyer of the order.
 
@@ -70,7 +70,7 @@ The result of losing:
 * The market maker will be forbidden to trade for 7 days.
 * The user will be forbidden to trade for 48 hours. If the total losing number reaches 3, user will be forbidden at OTC for ever.
 
-## Release Order
+### Release Order
 
 In most cases, the seller can release the assets to the buyer after checking the fiat money payment by clicking the `Release` button 
 
@@ -78,7 +78,7 @@ In most cases, the seller can release the assets to the buyer after checking the
 * Digital asset will be added to the buyer's balance
 * The chat window will be closed one hour later.
 
-## Cancel Order/Order Expired
+### Cancel Order/Order Expired
 
 Buyer can cancel the order for some reasons. 
 

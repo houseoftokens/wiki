@@ -42,6 +42,7 @@ This page has four main functional areas:
 
 1. Order value information including the amount of the digital asset and fiat money.
 2. Payment information including the seller's payment method details, the reference ID, and the expiration tips.
+    * Note: Payment Reference ID is filled as note while making payment, this will help the seller to confirm the transaction quickly.
 3. Operation area that both parties can operate the order
 4. Chat window where both parties can chat directly in real time. The chat window will be closed one hour after the order is completed.
 

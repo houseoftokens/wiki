@@ -84,6 +84,6 @@ function GoogleAuthenticatorCode(string secret)
 
 If your phone is lost or the code in the app is removed, you have to send email to `support@hotwallet.tech` to find it back:
 
-1. Your account nick
+1. Your account Nickname.
 2. Your ID images of both sides.
 3. An image contains your face and holding your request writing on paper.

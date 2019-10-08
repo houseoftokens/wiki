@@ -7,17 +7,13 @@ collections:
     title: Whitepapers
     order: 1
     output: true
-  erc20:
+  token:
     title: Token Info
     order: 2
     output: true
   security:
       title: Security
       order: 3
-      output: true
-  otc:
-      title: OTC
-      order: 4
       output: true
 
 # Jekyll Folders

@@ -5,23 +5,32 @@
 This wiki is maintained by `HouseToken`
 ## Dev docs
 
-### `housetokend` API documentation
+### RPC API documentation
 
-Use the [`housetokend` API](https://dev.hotwallet.tech) to communicate with a `housetokend` server, the core peer-to-peer server that manages the HOT Ledger.
+To be continued...
 
 ### RPC Tool
 
-Use the [JSON-RPC-based debugging tool](https://dev.hotwallet.tech/hot-ledger-rpc-tool.html) to print raw information about a HOT Ledger account, transaction, or ledger.
+To be continued...
 
-### Websocket API tool
-
-Need to see the HOT API in action ASAP? Use [Websocket tool](https://dev.hotwallet.tech/websocket-api-tool.html) to send prepopulated sample requests and get responses. No setup required.
-
-## Whitepapers
+## Whitepaper
 
 to be continued...
 
-## ERC20 Token information
+## Token information
 
-Click [here](/erc20/erc20) to check the information of corresponding ERC20 token of HOT and HGBP.
+Click [here](/token/token) to check the information of corresponding information of HOT and HGBP.
 
+### `nodehot` API documentation
+
+Use the [`nodehot` API](https://dev.hotwallet.tech) to communicate with a `nodehot` server, the core peer-to-peer server that manages the HOT Ledger.
+
+### Explorer
+
+Use the [HouseToken Explorer](https://explorer.hotwallet.tech) to explor data of the chain.
+
+## Related Links
+
+* [HOT News](http://www.house-token.com/news/)
+* [HOT Wallet](https://www.hotwallet.tech)
+* [HOT Explorer](https://explorer.hotwallet.tech/exchange)

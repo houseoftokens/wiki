@@ -4,17 +4,17 @@ description: Welcome to wiki of HouseToken
 # Articles
 collections:
   wps:
-    title: Whitepapers
+    title: NODEHOT
     order: 1
     output: true
-  token:
-    title: Token Info
+  rpcapi:
+    title: API Documentation
     order: 2
     output: true
   security:
-      title: Security
-      order: 3
-      output: true
+    title: Security
+    order: 3
+    output: true
 
 # Jekyll Folders
 # source: ./themes/km/

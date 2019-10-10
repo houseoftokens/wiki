@@ -3,7 +3,7 @@
 }
 
 .content:not(.custom) {
-  max-width: 740px; margin: 0 auto; padding: 2rem 2.5rem;
+  max-width: 740px; padding: 2rem 2.5rem;
   & > :first-child {margin-top: 3.6rem}
   & a {
     &:hover {text-decoration: underline}
@@ -27,12 +27,24 @@
     }
   }
 }
+
 @media (max-width: 959px) {
   .content:not(.custom) { padding:2rem }
 }
 
 @media (max-width: 419px) {
   .content:not(.custom) { padding:1.5rem }
+}
+ol {list-style: none;}
+@media (min-width: 1400px) {
+  #markdown-toc { 
+      position: fixed; left: 1140px; top: 120px; list-style: none;
+   }
+}
+@media (min-width: 1400px) {
+  #table-of-contents { 
+      position: fixed; left: 1140px; top: 80px;
+   }
 }
 
 

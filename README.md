@@ -1,13 +1,18 @@
-# Welcome to wiki of HouseToken
+---
+title: Docs
+---
 
-<img src="/assets/images/logo.svg" alt="logo" height="100"/>
-
+# {{site.title}}
 This wiki is maintained by `HouseToken`
+
+## nodehot Endpoints
+
+* https://s1.hotwallet.tech:443
+
 ## Dev docs
 
-### RPC API documentation
-
-To be continued...
+* Check [Overview](/wps/features) to learn about nodehot
+* Click [here](/rpcapi/rpcapi) to check the RPC API of nodehot
 
 ### RPC Tool
 
@@ -19,11 +24,7 @@ to be continued...
 
 ## Token information
 
-Click [here](/token/token) to check the information of corresponding information of HOT and HGBP.
-
-### `nodehot` API documentation
-
-Use the [`nodehot` API](https://dev.hotwallet.tech) to communicate with a `nodehot` server, the core peer-to-peer server that manages the HOT Ledger.
+Click [here](/wps/token) to check the information of corresponding information of HOT and HGBP.
 
 ### Explorer
 

@@ -4,7 +4,7 @@ chapter: 2
 layout: default
 ---
 # Overview
-A person named Nakamoto Satoshi introduced a paper（*Bitcoin: A Peer-to-Peer Electronic Cash System*）in 2008, and published the Bitcoin software in 2009, which is believed to be the initlization of the blockchain technology.
+A person named Nakamoto Satoshi introduced a paper（*Bitcoin: A Peer-to-Peer Electronic Cash System*）in 2008, and published the Bitcoin software in 2009, which is believed to be the initialization of the blockchain technology.
 
 In the past decade, the blockchain has evolved from a geek concept that exists only in small circles to a concept that is widely understood and accepted by the public. Blockchain technology has also experienced several stages in this period of time:
 

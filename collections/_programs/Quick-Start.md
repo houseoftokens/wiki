@@ -1,3 +1,8 @@
+---
+title: Quick Start
+chapter: 2
+layout: default
+---
 # Quick Start
 
 HoT comes with a number of programs. The primary ones that you will use, and the ones that are covered here, are:

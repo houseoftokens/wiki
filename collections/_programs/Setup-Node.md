@@ -1,3 +1,9 @@
+---
+title: Setup Nodehot
+chapter: 3
+layout: default
+---
+
 # Setup Nodehot
 
 ## Nodehot Modes

@@ -1,3 +1,8 @@
+---
+title: How to Build
+chapter: 1
+layout: default
+---
 # How to Build
 
 ## Getting the Code

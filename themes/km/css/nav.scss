@@ -12,6 +12,7 @@ nav.nav {
     color: #2c3e50;text-decoration: none;
     & > b {
       top:1px; position:relative;flex:0 0 0;display:inline-flex;height:1em;align-items:center;padding: .25em .5em;font-weight: normal;font-size: 13px;border-radius:3px;background: #eee;color:#222;
+      &::before {content:'developers'}
     }
   }
   & .links {
@@ -39,6 +40,11 @@ nav.nav {
     & .search-box {
       margin-right:0;
       & input {left: 1rem;}
+    }
+    & .logo {
+      & > b {
+        &::before {content:'dev'}
+      }
     }
   }
 }

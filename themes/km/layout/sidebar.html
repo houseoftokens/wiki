@@ -5,7 +5,10 @@
       {% for folder in folders %}
         {% if folder.label != "posts" %}
       <div class="sidebar-group">
-        <strong class="sidebar-heading open">{{ folder.title }}</strong>
+        <strong class="sidebar-heading open">
+          <i class="i" style="background-image:url({{site.baseurl}}/assets/images/{{ folder.relative_directory | replace_first: '_'}}.svg)"></i>
+          {{ folder.title }}
+        </strong>
         <ul class="sidebar-group-items">
           {% assign docs = folder.docs | sort: 'chapter' %}
           {% for doc in docs %}

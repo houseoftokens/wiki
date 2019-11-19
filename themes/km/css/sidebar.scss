@@ -1,3 +1,7 @@
+:root {
+  --sbarPaddingLeft: 3.5rem;
+}
+
 .sidebar-button {
   display: none; width: 1.25rem; height: 1.25rem; position: absolute; padding: .6rem; top: .6rem; left: 1rem;
   & .icon {display: block; width: 1.25rem; height: 1.25rem }
@@ -12,14 +16,15 @@
   & ul { padding: 0; margin: 0; list-style-type: none; }
   & a {display: inline-block;}
   & .nav-links { display: none; border-bottom: 1px solid #eaecef; padding: .5rem 0 .75rem 0;
-    & a {font-weight: 600}
+    & a {font-weight: 700}
     & .nav-item,
     & .repo-link {display: block; line-height: 1.25rem; font-size: 1.1em; padding: .5rem 0 .5rem 1.5rem;}
     }
 }
 
 .sidebar-heading {
-  color: #999; transition: color .15s ease; font-size: 1.1em; font-weight: 700; padding: 0 1.5rem; margin-top: 0; margin-bottom: .5rem;
+  color: #999; transition: color .15s ease; font-size: 1.1em; font-weight: 700; padding: 0 var(--sbarPaddingLeft); margin-top: 0; margin-bottom: .5rem;
+  & i.i {left: -.25em;position:relative;margin: 0 0 .2em -1em;font-size: 1.25em;vertical-align: middle;}
   &.open,
   &:hover {color: inherit;}
 }
@@ -27,11 +32,14 @@
 a.sidebar-link {
   font-weight: 400; display: inline-block; color: #2c3e50; border-left: .25rem solid transparent; padding: .35rem 1rem .35rem 1.25rem; line-height: 1.4; width: 100%; box-sizing: border-box;
   &:hover {color: $color1}
-  &.active {font-weight: 600;color: $color1;border-left-color: $color1;}
+  &.active {font-weight: 700;color: $color1;border-left-color: $color1;background: rgba(0,169,157,.1);}
 }
 
-.sidebar-group a.sidebar-link {
-  padding-left: 2rem;
+.sidebar-group {
+  margin: .25em 0;
+  & a.sidebar-link {
+    padding-left: calc(var(--sbarPaddingLeft) + .5rem);
+  }
 }
 
 .sidebar-sub-headers a.sidebar-link {

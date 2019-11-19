@@ -1,5 +1,6 @@
 
 .sidebar-open .sidebar-mask { display: block;}
+.body {box-sizing:border-box;min-height:100vh;padding: 3.6rem 0 0;background: url($base-url + 'images/2.jpg') no-repeat top;background-size: cover;}
 
 @media (max-width: 959px) {
   .sidebar { font-size:15px; width: 16.4rem }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+<title>{{site.title}}</title>
+<link rel="shortcut icon" href="https://www.hotwallet.tech/i/favico1.ico">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+</head>
+<body>
+{% include nav.html %}
+<div class="body">
+  <ul class="entries">
+    {% assign folders = site.collections | sort: 'order' %}
+    {% for folder in folders %}
+      {% if folder.label != "posts" %}
+        {% assign docs = folder.docs | sort: 'chapter' %}
+        {% for doc in docs %}
+        <li class="entry"><a href="{{ doc.url }}"><i class="i" style="background-image:url({{site.baseurl}}/assets/images/{{ folder.relative_directory | replace_first: '_'}}.svg)"></i><em>{{ folder.title }}</em></a></li>
+        {% break %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    <li class="entry"><a href="https://github.com/houseoftokens"><i class="i" style="background-image: url(/assets/images/5.svg);"></i><em>Open Source Code</em></a></li>
+    <li class="entry"><a href="https://github.com/houseoftokens"><i class="i" style="background-image: url(/assets/images/6.svg);"></i><em>Toolkit</em></a></li>
+    <li class="entry"><a href="https://github.com/houseoftokens"><i class="i" style="background-image: url(/assets/images/7.svg);"></i><em>Technical White Paper</em></a></li>
+    <li class="entry"><a href="https://explorer.hotwallet.tech"><i class="i" style="background-image: url(/assets/images/8.svg);"></i><em>Block Explorer</em></a></li>
+    <!-- <li class="entry"><a href="https://www.hotwallet.tech"><i class="i" style="background-image: url(/assets/images/9.svg);"></i><em>Other resources</em></a></li> -->
+  </ul>
+</div>
+</body>
+</html>

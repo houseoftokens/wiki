@@ -3,13 +3,16 @@ nav.nav {
   height: 3.6rem; padding: .7rem 1.5rem; line-height: 2.2rem;
   background-color: #fff;
   box-sizing: border-box;
-  border-bottom: 1px solid #eaecef;
+  box-shadow: 0 1px 3px rgba(0,0,0,.15);
   & a {
     display: inline-block;
   }
   & .logo {
-    position: relative;font-size: 1.3rem; font-weight: 600;
+    top:-0.15em;position: relative;display:inline-flex;align-items:center;font-size: 1.3rem; font-weight: 700;
     color: #2c3e50;text-decoration: none;
+    & > b {
+      top:1px; position:relative;flex:0 0 0;display:inline-flex;height:1em;align-items:center;padding: .25em .5em;font-weight: normal;font-size: 13px;border-radius:3px;background: #eee;color:#222;
+    }
   }
   & .links {
     padding-left: 1.5rem;

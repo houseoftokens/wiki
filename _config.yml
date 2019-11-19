@@ -17,7 +17,7 @@ collections:
     output: true
   programs:
     title: Programs
-    order: 3
+    order: 4
     output: true
 
 # Jekyll Folders

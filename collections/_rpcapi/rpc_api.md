@@ -1299,14 +1299,55 @@ curl --request POST \
   --data '{"account_name":"hottestaccnt","code_as_wasm":1}'
 ```
 
+### get_table_rows
+
+Returns an object containing rows from the specified table.
+
+>`POST` http://{host}:{port}/v1/chain/get_table_rows
+
+#### PARAMETERS
+{: .no_toc }
+
+* code\*: string, The name of the smart contract that controls the provided table
+* table\*: string, The name of the table to query
+* scope\*: string, The account to which this data belongs
+* json: boolean, return result in JSON format
+* index_position: string, Position of the index used, accepted parameters primary, secondary, tertiary, fourth, fifth, sixth, seventh, eighth, ninth , tenth
+* key_type: string, Type of key specified by index_position (for example - uint64_t or name)
+* encode_type: string, 
+* upper_bound: string, Filters results to return the first element that is greater than provided value in set
+* lower_bound: string, Filters results to return the first element that is not less than provided value in set
+* limit: int32, Limit number of results returned.
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_table_rows \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"json": true,"code": "eosio","scope": "eosio","table": "rammarket","limit": 10}'
+```
+
 #### Response
 {: .no_toc }
 ```json
 {
-  "account_name": "hottestaccnt",
-  "code_hash": "0000000000000000000000000000000000000000000000000000000000000000",
-  "wast": "",
-  "wasm": ""
+    "rows": [
+        {
+            "supply": "10000000000.0000 RAMCORE",
+            "base": {
+                "balance": "68640913783 RAM",
+                "weight": "0.50000000000000000"
+            },
+            "quote": {
+                "balance": "10011.445540 HOT",
+                "weight": "0.50000000000000000"
+            }
+        }
+    ],
+    "more": false
 }
 ```
 ## HISTORY API

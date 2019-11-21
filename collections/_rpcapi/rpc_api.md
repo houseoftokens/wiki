@@ -1276,6 +1276,69 @@ curl --request POST \
   ]
 }
 ```
+### get_producers
+
+>`POST` http://{host}:{port}/v1/chain/get_producers
+
+#### PARAMETERS
+{: .no_toc }
+
+* limit\*: string, total number of producers to retrieve
+* lower_bound\*: string, In conjunction with limit can be used to paginate through the results. For example, limit=10 and lower_bound=10 would be page 2
+* json: boolean, return result in JSON format
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_required_keys \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"limit":"10","lower_bound":"10"}'
+```
+
+#### Response
+{: .no_toc }
+```json
+{
+    "rows": [
+        {
+            "owner": "prod1.hot",
+            "producer_key": "HOT5x9NLN2iR3efgW4YKn63yeQ43FWeGgWP9g8peMe5ke9M3TP4gP",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod2.hot",
+            "producer_key": "HOT88DrtSWomL9osrp88DtEHzzpnP5DN1yE9MXwvHCB8MJxCYg4bu",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod3.hot",
+            "producer_key": "HOT7eGagwpViKZDwHu9Po6T1pNNNLf2TB4LJV66khFoder5E8ToKE",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod4.hot",
+            "producer_key": "HOT7wfHnSrGXgeMvCzfr6aLYTscnUjT6719217vDjKAhd1zfyZfV3",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod5.hot",
+            "producer_key": "HOT6WFrtco9cjBb8ZkWv9DgRmDhsPfUdfy5XYVoLAXzzyQjKHkZH1",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        }
+    ],
+    "total_producer_vote_weight": "0.00000000000000000",
+    "more": ""
+}
+```
+
 ### get_code
 
 Returns an object containing rows from the specified table.
@@ -1322,7 +1385,7 @@ curl --request POST \
   --url http://localhost:8080/v1/chain/get_table_by_scope \
   --header 'accept: application/json' \
   --header 'content-type: application/json' \
-  --data '{"code": "eosio","table": "rammarket"}'
+  --data '{"code": "eosio"}'
 ```
 
 #### Response

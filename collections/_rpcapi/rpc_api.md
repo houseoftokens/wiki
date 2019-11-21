@@ -1298,6 +1298,112 @@ curl --request POST \
   --header 'content-type: application/json' \
   --data '{"account_name":"hottestaccnt","code_as_wasm":1}'
 ```
+### get_table_by_scope
+
+Returns an object containing rows from the specified table.
+
+>`POST` http://{host}:{port}/v1/chain/get_table_by_scope
+
+#### PARAMETERS
+{: .no_toc }
+
+* code\*: string, The name of the smart contract that controls the provided table
+* table: string, The name of the table to query
+* upper_bound: string, Filters results to return the first element that is greater than provided value in set
+* lower_bound: string, Filters results to return the first element that is not less than provided value in set
+* limit: int32, Limit number of results returned
+* reverse: boolean, Reverse the order of returned results
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_table_by_scope \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"code": "eosio","table": "rammarket"}'
+```
+
+#### Response
+{: .no_toc }
+```json
+{
+    "rows": [
+        {
+            "code": "eosio",
+            "scope": "activewallet",
+            "table": "delband",
+            "payer": "activewallet",
+            "count": 218
+        },
+        {
+            "code": "eosio",
+            "scope": "activewallet",
+            "table": "userres",
+            "payer": "activewallet",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "abihash",
+            "payer": "eosio",
+            "count": 2
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global2",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global3",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "producers",
+            "payer": "prod1.hot",
+            "count": 10
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "producers2",
+            "payer": "prod1.hot",
+            "count": 5
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "rammarket",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "voters",
+            "payer": "hot",
+            "count": 17
+        }
+    ],
+    "more": "hot"
+}
+```
 
 ### get_table_rows
 
@@ -1314,10 +1420,10 @@ Returns an object containing rows from the specified table.
 * json: boolean, return result in JSON format
 * index_position: string, Position of the index used, accepted parameters primary, secondary, tertiary, fourth, fifth, sixth, seventh, eighth, ninth , tenth
 * key_type: string, Type of key specified by index_position (for example - uint64_t or name)
-* encode_type: string, 
+* encode_type: string
 * upper_bound: string, Filters results to return the first element that is greater than provided value in set
 * lower_bound: string, Filters results to return the first element that is not less than provided value in set
-* limit: int32, Limit number of results returned.
+* limit: int32, Limit number of results returned
 
 
 #### CURL
@@ -1350,6 +1456,7 @@ curl --request POST \
     "more": false
 }
 ```
+
 ## HISTORY API
 > This API endpoint relies on history_plugin which has been deprecated.
 ### get_actions

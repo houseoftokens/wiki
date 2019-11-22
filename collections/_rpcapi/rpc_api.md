@@ -1276,6 +1276,69 @@ curl --request POST \
   ]
 }
 ```
+### get_producers
+
+>`POST` http://{host}:{port}/v1/chain/get_producers
+
+#### PARAMETERS
+{: .no_toc }
+
+* limit\*: string, total number of producers to retrieve
+* lower_bound\*: string, In conjunction with limit can be used to paginate through the results. For example, limit=10 and lower_bound=10 would be page 2
+* json: boolean, return result in JSON format
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_required_keys \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"limit":"10","lower_bound":"10"}'
+```
+
+#### Response
+{: .no_toc }
+```json
+{
+    "rows": [
+        {
+            "owner": "prod1.hot",
+            "producer_key": "HOT5x9NLN2iR3efgW4YKn63yeQ43FWeGgWP9g8peMe5ke9M3TP4gP",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod2.hot",
+            "producer_key": "HOT88DrtSWomL9osrp88DtEHzzpnP5DN1yE9MXwvHCB8MJxCYg4bu",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod3.hot",
+            "producer_key": "HOT7eGagwpViKZDwHu9Po6T1pNNNLf2TB4LJV66khFoder5E8ToKE",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod4.hot",
+            "producer_key": "HOT7wfHnSrGXgeMvCzfr6aLYTscnUjT6719217vDjKAhd1zfyZfV3",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        },
+        {
+            "owner": "prod5.hot",
+            "producer_key": "HOT6WFrtco9cjBb8ZkWv9DgRmDhsPfUdfy5XYVoLAXzzyQjKHkZH1",
+            "url": "",
+            "total_votes": "0.00000000000000000"
+        }
+    ],
+    "total_producer_vote_weight": "0.00000000000000000",
+    "more": ""
+}
+```
+
 ### get_code
 
 Returns an object containing rows from the specified table.
@@ -1298,17 +1361,165 @@ curl --request POST \
   --header 'content-type: application/json' \
   --data '{"account_name":"hottestaccnt","code_as_wasm":1}'
 ```
+### get_table_by_scope
+
+Returns an object containing rows from the specified table.
+
+>`POST` http://{host}:{port}/v1/chain/get_table_by_scope
+
+#### PARAMETERS
+{: .no_toc }
+
+* code\*: string, The name of the smart contract that controls the provided table
+* table: string, The name of the table to query
+* upper_bound: string, Filters results to return the first element that is greater than provided value in set
+* lower_bound: string, Filters results to return the first element that is not less than provided value in set
+* limit: int32, Limit number of results returned
+* reverse: boolean, Reverse the order of returned results
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_table_by_scope \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"code": "eosio"}'
+```
 
 #### Response
 {: .no_toc }
 ```json
 {
-  "account_name": "hottestaccnt",
-  "code_hash": "0000000000000000000000000000000000000000000000000000000000000000",
-  "wast": "",
-  "wasm": ""
+    "rows": [
+        {
+            "code": "eosio",
+            "scope": "activewallet",
+            "table": "delband",
+            "payer": "activewallet",
+            "count": 218
+        },
+        {
+            "code": "eosio",
+            "scope": "activewallet",
+            "table": "userres",
+            "payer": "activewallet",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "abihash",
+            "payer": "eosio",
+            "count": 2
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global2",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "global3",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "producers",
+            "payer": "prod1.hot",
+            "count": 10
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "producers2",
+            "payer": "prod1.hot",
+            "count": 5
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "rammarket",
+            "payer": "eosio",
+            "count": 1
+        },
+        {
+            "code": "eosio",
+            "scope": "eosio",
+            "table": "voters",
+            "payer": "hot",
+            "count": 17
+        }
+    ],
+    "more": "hot"
 }
 ```
+
+### get_table_rows
+
+Returns an object containing rows from the specified table.
+
+>`POST` http://{host}:{port}/v1/chain/get_table_rows
+
+#### PARAMETERS
+{: .no_toc }
+
+* code\*: string, The name of the smart contract that controls the provided table
+* table\*: string, The name of the table to query
+* scope\*: string, The account to which this data belongs
+* json: boolean, return result in JSON format
+* index_position: string, Position of the index used, accepted parameters primary, secondary, tertiary, fourth, fifth, sixth, seventh, eighth, ninth , tenth
+* key_type: string, Type of key specified by index_position (for example - uint64_t or name)
+* encode_type: string
+* upper_bound: string, Filters results to return the first element that is greater than provided value in set
+* lower_bound: string, Filters results to return the first element that is not less than provided value in set
+* limit: int32, Limit number of results returned
+
+
+#### CURL
+{: .no_toc }
+```bash
+curl --request POST \
+  --url http://localhost:8080/v1/chain/get_table_rows \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"json": true,"code": "eosio","scope": "eosio","table": "rammarket","limit": 10}'
+```
+
+#### Response
+{: .no_toc }
+```json
+{
+    "rows": [
+        {
+            "supply": "10000000000.0000 RAMCORE",
+            "base": {
+                "balance": "68640913783 RAM",
+                "weight": "0.50000000000000000"
+            },
+            "quote": {
+                "balance": "10011.445540 HOT",
+                "weight": "0.50000000000000000"
+            }
+        }
+    ],
+    "more": false
+}
+```
+
 ## HISTORY API
 > This API endpoint relies on history_plugin which has been deprecated.
 ### get_actions

@@ -11,7 +11,7 @@ collections:
     title: API Documentation
     order: 2
     output: true
-  security:
+  wallet:
     title: Wallet
     order: 3
     output: true

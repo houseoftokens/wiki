@@ -1,9 +1,9 @@
 ---
-title: Overview
+title: Technical White Paper
 chapter: 2
 layout: default
 ---
-# Overview
+# Technical White Paper
 In the past decade, the blockchain has evolved from a geek concept that exists only in small circles to a concept that is widely understood and accepted by the public. Blockchain technology has also experienced several stages in this period of time:
 
 1. The blockchain represented by Bitcoin can be summarized as the first generation. The main feature of its function is to support the decentralized token payment system. The `Proof of Work` is the core consensus mechanism, and the speed of transaction confirmation is tens of minutes.

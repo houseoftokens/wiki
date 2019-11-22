@@ -12,7 +12,7 @@ collections:
     order: 2
     output: true
   security:
-    title: Security
+    title: Wallet
     order: 3
     output: true
   programs:

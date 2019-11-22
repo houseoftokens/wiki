@@ -49,8 +49,8 @@ A custom `config.ini` file can be used by executing `$ nodehot --config path/to/
 
 `config.ini` can be found in the following locations:
 
-- Mac OS: `~/Library/Application Support/eosio/nodeos/config`
-- Linux: `~/.local/share/eosio/nodeos/config`
+- Mac OS: `~/Library/Application Support/hot/nodehot/config`
+- Linux: `~/.local/share/hot/nodehot/config`
 
 ## Nodehot Options
 

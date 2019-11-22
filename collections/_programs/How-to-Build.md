@@ -43,7 +43,7 @@ MacOS 10.14 (Mojave)
 Run the build & install script from the `hot` folder.
 
 ```bash
-cd eos
+cd hot
 ./scripts/hot_build_install.sh
 ```
 

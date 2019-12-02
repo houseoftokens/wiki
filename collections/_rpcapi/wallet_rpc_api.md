@@ -125,12 +125,12 @@ Unlocks a wallet with the given name and password.
 * name string: name of wallet
 * Password string: password of wallet
 
-* ```json
-  [
-    "default",
-    "PW5JfVLr1z9937vq2RkeoyMLHzjpN4o5cja5smosZxA56ex4dP26m"
-  ]
-  ```
+```json
+[
+  "default",
+  "PW5JfVLr1z9937vq2RkeoyMLHzjpN4o5cja5smosZxA56ex4dP26m"
+]
+```
 
 #### CURL
 {: .no_toc }
@@ -215,13 +215,11 @@ Create a key pair in wallet
 >`POST` http://{host}:{port}/wallet/create_key
 
 #### PARAMETERS
-
 {: .no_toc }
 
 * RAW_BODY string: name of wallet
 
 #### CURL
-
 {: .no_toc }
 
 ```bash
@@ -232,7 +230,6 @@ curl --request POST \
 ```
 
 #### Response
-
 {: .no_toc }
 
 ```json

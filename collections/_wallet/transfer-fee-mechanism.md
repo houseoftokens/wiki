@@ -28,10 +28,10 @@ Every producer successfully created some blocks can claim it's share of earnings
 
 ## Fee Rate
 
-Fees are charged base on the amount of assets one  `transfer`s. No matter what asset one `transfer`s, `HoT` platform only charges `HOT` asset for fee. This means one has to have enough `HOT` asset to `transfer` any kind of asset.
+Fees are charged base on the amount of assets one  transfers. No matter what asset one transfers, HoT platform only charges HOT asset for fee. This means one has to have enough HOT asset to transfer any kind of asset.
 
-For now, `HoT` fee rate is `1‰` or at least `0.001 HOT`. 
+For now, `HoT` fee rate is 1‰ or at least 0.001 HOT. 
 
-For example, Alice `transfer`s  `1011.2 HOT` to Bob. Alice will spend `1011.2 + 1011.2 * 1 / 1000 = 1012.2112 HOT`, and Bob will receive `1011.2 HOT`,  `1011.2 * 1 / 1000 = 1.0112 HOT` will go to the fee pool.
+> For example, Alice transfers  1011.2 HOT to Bob. Alice will spend 1011.2 + 1011.2 * 1 / 1000 = 1012.2112 HOT, and Bob will receive 1011.2 HOT,  1011.2 * 1 / 1000 = 1.0112 HOT will go to the fee pool.
 
-Another example, Alice `transfers`s  ` 0.00021 HGBP`  to Bob. Alice will spend  `0.00021 HGBP` and  `0.001 HOT` for fee , and Bob will receive  `0.00021 HGBP`, `0.001 HOT` will go to the fee pool.
+> Another example, Alice transfers  0.00021 HGBP  to Bob. Alice will spend  0.00021 HGBP and  0.001 HOT for fee , and Bob will receive  0.00021 HGBP, 0.001 HOT will go to the fee pool.

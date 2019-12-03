@@ -12,7 +12,7 @@ We introduce this transfer fee mechanism for 2 reasons-
 
 ## 1. Avoid resource abuse
 
-**HoT** is built based on *EOSIO* system. *EOSIO* provides a stake system to prevent system resource abuse, which works well most of the time. But when transaction traffic is heavy on *EOS* platform, resouse price may become extremely high. One has to stake thousands of *EOS* token to send a transaction on the platform.
+**HoT** is built based on *EOSIO* system. *EOSIO* provides a stake system to prevent system resource abuse, which works well most of the time. But when transaction traffic is heavy on *EOS* platform, resourse price may become extremely high. One has to stake thousands of *EOS* token to send a transaction on the platform.
 
 To improve this situation, we charge a small share of fee for the **transfer** transaction, which is the most frequent type of transaction. 
 

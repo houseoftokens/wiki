@@ -42,7 +42,7 @@ The docker image build by the `Dockerfile` can run both producer node anf non-pr
         -p yout_peer-port:9011 \
         -e NODE_TYPE="server" \
         -e PEER_NODES="peer1-server-node-host:9011#peer2-server-node-host:9011" \
-        housetoken/hot:latest
+        houseoftoken/hot:latest
 ```
 
 ### Producer
@@ -56,5 +56,5 @@ The docker image build by the `Dockerfile` can run both producer node anf non-pr
         -p yout_peer-port:9011 \
         -e NODE_TYPE="producer" \
         -e PEER_NODES="peer1-server-node-host:9011#peer2-server-node-host:9011" \
-        housetoken/hot:latest
+        houseoftoken/hot:latest
 ```

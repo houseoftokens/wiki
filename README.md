@@ -2,7 +2,7 @@
 title: Docs
 ---
 
-# {{site.title}}
+# Wiki of HouseToken 
 This wiki is maintained by `HouseToken`
 
 ## nodehot Endpoints
@@ -11,20 +11,20 @@ This wiki is maintained by `HouseToken`
 
 ## Dev docs
 
-* Check [Overview](/wps/features) to learn about nodehot
 * Click [here](/rpcapi/rpcapi) to check the RPC API of nodehot
+* Click [here](/rpcapi/wallet_rpc_api) to check the Wallet RPC API
 
 ### RPC Tool
 
-To be continued...
+* Clhot Tool: https://wiki.hotwallet.tech/programs/Clhot/
 
-## Whitepaper
+## Technical Whitepaper
 
-to be continued...
+* Technical White Paper: https://wiki.hotwallet.tech/wps/Technical-White-Paper/
 
 ## Token information
 
-Click [here](/wps/token) to check the information of corresponding information of HOT and HGBP.
+Click [here](/wps/token) to check the corresponding information of HOT and HGBP.
 
 ### Explorer
 

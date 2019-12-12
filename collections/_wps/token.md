@@ -7,7 +7,7 @@ layout: default
 ## HOT
 HOT, full name is House of Token, which is used to confirm share of the property. The account holding HOT will receive the interest in HGBP on the 20th of each month. 
 
-> Get the latest information through RPC API: [get_currency_stats](/rpcapi/rpc_api.html#get_currency_stats)
+> Get the latest information through RPC API: [get_currency_stats](/rpcapi/rpc_api/#get_currency_stats)
 
  Title | Description
  --- | --- 
@@ -23,7 +23,7 @@ HOT, full name is House of Token, which is used to confirm share of the property
 
 Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to one pound (GBP) in reality, and the income from rent is used as an asset endorsement.
 
-> Get the latest information through RPC API: [get_currency_stats](/rpcapi/rpc_api.html#get_currency_stats)
+> Get the latest information through RPC API: [get_currency_stats](/rpcapi/rpc_api/#get_currency_stats)
  
   Title | Description
   --- | --- 

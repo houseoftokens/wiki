@@ -16,7 +16,7 @@ HOT, full name is House of Token, which is used to confirm share of the property
  Decimals | 6
  Init Supply | 10000000.000000
  Max Supply | 10000000000.000000
- Current Balance | 10000000.000000
+ Current Balance | 114000000.000000
  Issuance | true
  
 ## HGBP
@@ -32,7 +32,7 @@ Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to o
   Decimals | 6
   Init Supply | 0
   Max Supply | 10000000000.000000
-  Current Balance | 31341.300000
+  Current Balance | 156340.980000
   Issuance | true
   
 ### Issuance History of HGBP
@@ -40,3 +40,6 @@ Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to o
   Date | Amount | Purpose
   --- | --- | ---
   2019.10.10 | 31341.3 | Initialization
+  2019.10.20 | 41666.66| Dividend
+  2019.11.20 | 41666.66| Dividend
+  2019.12.20 | 41666.66| Dividend

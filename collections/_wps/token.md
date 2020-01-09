@@ -39,7 +39,7 @@ Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to o
   
   Date | Amount | Purpose
   --- | --- | ---
-  2019.10.10 | 63215.95 | Initialization
+  2019.10.10 | 63633.72 | Initialization
   2019.10.20 | 41666.66| Dividend
   2019.11.20 | 41666.66| Dividend
   2019.12.20 | 41666.66| Dividend

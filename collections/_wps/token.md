@@ -32,7 +32,7 @@ Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to o
   Decimals | 6
   Init Supply | 0
   Max Supply | 10000000000.000000
-  Current Balance | 156340.980000
+  Current Balance | 663636.174810
   Issuance | true
   
 ### Issuance History of HGBP

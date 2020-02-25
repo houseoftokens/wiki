@@ -44,4 +44,5 @@ Crypto currency that anchors the pound (GBP). Each unit of HGBP corresponds to o
   2019.11.20 |  41666.66 | Dividend
   2019.12.20 |  41666.66 | Dividend
   2020.01.20 | 475000.00 | Dividend
+  2020.02.20 | 475000.00 | Dividend
 	
